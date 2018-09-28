@@ -1,0 +1,2 @@
+# x-typescript
+eXample typescript
