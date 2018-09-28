@@ -1,0 +1,33 @@
+c:
+cpp:
+java:
+javascript:
+golang:
+  designed_by:
+    - Robert Griesemer
+    - Rob Pike
+    - Ken Thompson
+  developer: Google
+  first_appeared: 2009-11-10
+  version:
+    stable: 1.11
+  filename_extensions:
+    - .go
+  website: https://golang.org/
+perl:
+php:
+python:
+ruby:
+rust:
+typescript:
+  designed_by:
+   - Microsoft
+  developer: Microsoft
+  first_appeared: 2012-10-01
+  version:
+    stable: 3.1.1
+    preview: 3.1 RC
+  filename_extensions:
+    - .ts
+    - .tsx
+  website: http://www.typescriptlang.org/
