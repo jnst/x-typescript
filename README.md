@@ -26,4 +26,4 @@ $ yarn start:yaml
 
 - [js-yaml](https://github.com/nodeca/js-yaml)
 - [fs Promises API](https://nodejs.org/api/fs.html#fs_fs_promises_api)
-
+  - `(node:31251) ExperimentalWarning: The fs.promises API is experimental`
