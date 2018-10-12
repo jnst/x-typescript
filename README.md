@@ -28,6 +28,15 @@ $ yarn start:yaml
 * [fs Promises API](https://nodejs.org/api/fs.html#fs_fs_promises_api)
   * `(node:31251) ExperimentalWarning: The fs.promises API is experimental`
 
+### redis
+
+```bash
+$ yarn start:redis
+```
+
+* [ioredis](https://github.com/luin/ioredis)
+  * FYI: [node_redis](https://github.com/NodeRedis/node_redis) is legacy for ES6
+
 ## Code format
 
 ```bash
