@@ -4,10 +4,10 @@
 
 ```bash
 $ node -v
-v10.10.0
+v10.12.0
 
 $ yarn -v
-1.9.4
+1.10.1
 ```
 
 ## Setup
@@ -23,6 +23,25 @@ $ yarn install
 
 ```bash
 $ yarn start:yaml
+
+✔  success   YAML file content:
+{
+  "designed_by": [
+    "Microsoft"
+  ],
+  "developer": "Microsoft",
+  "first_appeared": "2012-10-01T00:00:00.000Z",
+  "version": {
+    "stable": "3.1.1",
+    "preview": "3.1 RC"
+  },
+  "filename_extensions": [
+    ".ts",
+    ".tsx"
+  ],
+  "website": "http://www.typescriptlang.org/"
+}
+✨  Done in 0.64s.
 ```
 * [js-yaml](https://github.com/nodeca/js-yaml)
 * [fs Promises API](https://nodejs.org/api/fs.html#fs_fs_promises_api)
@@ -34,6 +53,9 @@ $ yarn start:yaml
 
 ```bash
 $ yarn start:redis
+
+✔  success   PONG
+✨  Done in 1.69s.
 ```
 
 * [ioredis](https://github.com/luin/ioredis)
@@ -46,6 +68,10 @@ $ yarn start:redis
 
 ```bash
 $ yarn start:luxon
+
+✔  success   yyyyMMdd  => 20181016
+✔  success   yyyy'W'WW => 2018W42
+✨  Done in 0.58s.
 ```
 
 * [luxon](https://github.com/moment/luxon)
