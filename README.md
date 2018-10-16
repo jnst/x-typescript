@@ -96,6 +96,26 @@ $ yarn start:enum
 
 </details>
 
+<details>
+<summary><b>Ranking</b></summary>
+
+```bash
+$ yarn start:ranking
+
+✔  success   50 users generated.
+✔  success   #listByHighScore => 5 users found.
+⬤  debug     {"userId":41,"name":"user-41","grade":"DIAMOND","score":9960}
+⬤  debug     {"userId":20,"name":"user-20","grade":"DIAMOND","score":9904}
+⬤  debug     {"userId":28,"name":"user-28","grade":"SILVER","score":9668}
+⬤  debug     {"userId":32,"name":"user-32","grade":"PLATINUM","score":9184}
+⬤  debug     {"userId":30,"name":"user-30","grade":"DIAMOND","score":9144}
+✔  success   #getByUserId => 1: {"userId":1,"name":"user-1","grade":"SILVER","score":7867}
+☒  complete
+✨  Done in 2.65s.
+```
+
+</details>
+
 ## Code format
 
 ```bash
