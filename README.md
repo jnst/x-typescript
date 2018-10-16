@@ -78,6 +78,24 @@ $ yarn start:luxon
 
 </details>
 
+<details>
+<summary><b>Enum</b></summary>
+
+```bash
+$ yarn start:enum
+
+✔  success   _____ Standard access _____
+✔  success   by name : BRONZE
+✔  success   by value: 2
+✔  success   _____ Added functions _____
+✔  success   #names : BRONZE,SILVER,GOLD,Platinum,Diamond
+✔  success   #values: 1,2,3,4,5
+✔  success   #length: 5
+✨  Done in 0.81s.
+```
+
+</details>
+
 ## Code format
 
 ```bash

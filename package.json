@@ -11,7 +11,8 @@
     "format": "prettier --write **/*.{ts,json,yaml,md}",
     "start:yaml": "ts-node yaml/main.ts",
     "start:redis": "ts-node redis/main.ts",
-    "start:luxon": "ts-node luxon/main.ts"
+    "start:luxon": "ts-node luxon/main.ts",
+    "start:enum": "ts-node enum/main.ts"
   },
   "dependencies": {
     "ioredis": "^4.0.2",
