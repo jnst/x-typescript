@@ -16,7 +16,6 @@
     "start:ranking": "ts-node ranking/main.ts"
   },
   "dependencies": {
-    "hiredis": "^0.5.0",
     "ioredis": "^4.0.2",
     "js-yaml": "^3.12.0",
     "lodash": "^4.17.11",
