@@ -4,10 +4,10 @@
 
 ```bash
 $ node -v
-v10.12.0
+v10.13.0
 
 $ yarn -v
-1.10.1
+1.12.3
 ```
 
 ## Setup
@@ -116,10 +116,8 @@ $ yarn start:ranking
 
 </details>
 
-## Code format
+## Code format by [Prettier](https://prettier.io/docs/en/index.html)
 
 ```bash
 $ yarn format
 ```
-
-* [Prettier](https://prettier.io/docs/en/index.html)
